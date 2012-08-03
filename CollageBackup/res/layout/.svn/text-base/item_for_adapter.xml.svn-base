@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="133px" android:layout_height="125px">
+<ImageView android:layout_width="127px" android:layout_height="88px" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:id="@+id/edit_collage_itemphoto"></ImageView>
+<ImageView android:id="@+id/edit_collage_itemselectedicon" android:layout_width="133px" android:layout_height="95px" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:background="@null" android:visibility="invisible"></ImageView>
+</RelativeLayout>

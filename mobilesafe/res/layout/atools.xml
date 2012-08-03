@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+    <TextView 
+    android:paddingTop="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="电话归属地查询"
+    android:textSize="16dp"
+    android:id="@+id/tv_find_address"
+    />
+    
+
+<View  
+    android:layout_marginTop="5dp"
+	android:background="#eeeeee"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"></View>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+>
+
+ <TextView 
+    android:paddingTop="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="启动来电归属地服务"
+    android:textSize="16dp"
+    android:id="@+id/tv_start_address_service"
+    />
+    
+	<ImageButton
+		android:adjustViewBounds="true"
+	    android:paddingTop="5dp"
+		android:layout_width="25dp"
+	    android:layout_height="25dp"
+		android:src="@drawable/close"
+		android:id="@+id/ib_atools"
+		android:layout_alignParentRight="true"
+	/>
+
+</RelativeLayout>
+   
+    
+
+
+<View  
+    android:layout_marginTop="5dp"
+	android:background="#eeeeee"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"></View>
+ <TextView 
+    android:paddingTop="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="更改 归属地显示的位置 "
+    android:textSize="16dp"
+    android:id="@+id/tv_change_location"
+    />
+
+<View  
+    android:layout_marginTop="5dp"
+	android:background="#eeeeee"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"></View>
+    <TextView 
+    android:paddingTop="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="添加自动ip拨号"
+    android:textSize="16dp"
+    android:id="@+id/tv_auto_ipcall"
+    />
+
+<View  
+    android:layout_marginTop="5dp"
+	android:background="#eeeeee"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"></View>
+    <TextView 
+    android:paddingTop="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="短信备份"
+    android:textSize="16dp"
+    android:id="@+id/tv_back_sms"
+ />
+
+<View  
+    android:layout_marginTop="5dp"
+	android:background="#eeeeee"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"></View>
+    
+    
+    <View  
+    android:layout_marginTop="5dp"
+	android:background="#eeeeee"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"></View>
+    <TextView 
+    android:paddingTop="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="程序锁"
+    android:textSize="16dp"
+    android:id="@+id/tv_lock_app"
+ />
+
+<View  
+    android:layout_marginTop="5dp"
+	android:background="#eeeeee"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"></View>
+</LinearLayout>

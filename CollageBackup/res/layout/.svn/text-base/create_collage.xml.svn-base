@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1024px" android:layout_height="768px" android:background="@drawable/create_collage_bg">
+    
+    <LinearLayout
+    	android:layout_width="1024px"
+    	android:layout_height="55px"
+    	android:background="@drawable/collage_create_toolbar">
+    	
+    	<ImageView
+    		android:layout_width="82px"
+    		android:layout_height="33px"
+    		android:id="@+id/collage_create_exitbtn"
+    		android:layout_marginLeft="25px"
+    		android:layout_marginTop="11px" android:src="@drawable/collage_backbtn_selector"/>
+    </LinearLayout>
+    
+    <EditText
+    	android:id="@+id/collage_create_storyname"
+    	android:layout_width="293px"
+    	android:background="@null" android:layout_y="320px" android:layout_x="65px" android:layout_height="34px"/>
+    
+    <ImageView
+    	android:layout_x="53px"
+    	android:layout_y="617px"
+    	android:id="@+id/collage_create_gobtn"
+    	android:layout_width="170px"
+    	android:layout_height="33px" android:src="@drawable/collage_createbtn_selector"/>
+</AbsoluteLayout>

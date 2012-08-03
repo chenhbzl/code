@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<TableLayout 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+>
+<TableRow 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+>
+<TextView 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="2g/3g总流量"
+/>
+<TextView 
+  android:paddingLeft="10px"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="wifi总流量"
+/>
+</TableRow>
+<TableRow 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+>
+<TextView 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/tv_mobile_traffic"
+/>
+<TextView 
+  android:paddingLeft="10px"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/tv_wifi_traffic"
+/>
+</TableRow>
+</TableLayout>
+    
+<SlidingDrawer 
+android:id="@+id/traffic_drawer"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:handle="@+id/traffic_handle"
+android:content="@+id/traffic_content"
+>
+<ImageView 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@id/traffic_handle"
+android:src="@drawable/notification"
+/>
+<ListView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@id/traffic_content"
+android:dividerHeight="2px"
+></ListView>
+</SlidingDrawer> 
+</LinearLayout>

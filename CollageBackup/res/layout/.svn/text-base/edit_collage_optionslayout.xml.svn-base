@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="200px"
+  android:layout_height="688px" android:background="@drawable/collage_layout_bg">
+<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/edit_collage_photobtn" android:src="@drawable/collage_photobtn_selector" android:layout_centerHorizontal="true" android:layout_marginTop="175px"></ImageView>
+<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/edit_collage_photobtn" android:layout_centerHorizontal="true" android:id="@+id/edit_collage_layoutbtn" android:src="@drawable/collage_layoutbtn_selector" android:layout_marginTop="45px"></ImageView>
+</RelativeLayout>

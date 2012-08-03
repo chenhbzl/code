@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="693px" android:layout_width="200px"
+	android:background="@drawable/edit_collage_photo_bg">
+
+    <ImageView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/edit_collage_photoIcon"
+		android:layout_marginTop="50px" android:paddingLeft="20px"
+		android:src="@drawable/edit_collage_photolist_icon" />
+		
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_toRightOf="@+id/edit_collage_photoIcon"
+		android:text="@string/photo_label_text" android:paddingLeft="10px" android:layout_marginTop="40px"
+		android:textSize="23px"/>
+		
+    <ImageView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:src="@drawable/divider_line"
+		android:layout_below="@+id/edit_collage_photoIcon" android:layout_marginTop="18px"
+	/>
+	
+	<ImageView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/edit_collage_photohidebtn"
+		android:src="@drawable/collage_hidebtn_selector"
+		android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+		android:layout_marginTop="8px" android:layout_marginRight="25px"></ImageView>
+		
+	<GridView
+		android:id="@+id/edit_collage_photo_gridview"
+		android:layout_alignParentTop="true" android:verticalSpacing="22px"
+		android:layout_marginTop="97px" android:layout_height="wrap_content" 
+		android:layout_width="196px" android:paddingLeft="53px"
+		
+		 android:paddingRight="53px">
+	</GridView><!--
+	
+	 <ImageView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:src="@drawable/divider_line"
+	     android:layout_marginBottom="19px"
+		android:layout_above="@+id/edit_collage_addtophotobtn"
+	/>
+		
+	<ImageView android:id="@+id/edit_collage_addtophotobtn"
+		android:layout_alignParentBottom="true" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/collage_addbtn_selector"
+		android:layout_centerHorizontal="true" android:layout_marginBottom="24px">
+	</ImageView>
+
+
+
+--></RelativeLayout>

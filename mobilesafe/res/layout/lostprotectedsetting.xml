@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<LinearLayout 
+	android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="保护未开启"
+    android:id="@+id/tv_isprotecting"
+    />
+    
+    <CheckBox 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/ck_isprotecting"
+    android:checked="false"
+    android:layout_marginLeft="190dp"
+    />
+    
+</LinearLayout>
+
+<View  
+    android:layout_marginTop="5dp"
+	android:background="#eeeeee"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"></View>
+<TextView 
+android:layout_marginTop="5dp"
+android:paddingTop="5dp"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="重新进入设置向导"
+android:id="@+id/tv_reentry_setup"
+/>
+<View  
+    android:layout_marginTop="5dp"
+	android:background="#eeeeee"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"></View>
+<TextView 
+android:paddingTop="5dp"
+android:layout_marginTop="5dp"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="更改手机位置指令设置"
+android:id="@+id/tv_change_instru"
+/>
+<View  
+    android:layout_marginTop="5dp"
+	android:background="#eeeeee"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"></View>
+</LinearLayout>

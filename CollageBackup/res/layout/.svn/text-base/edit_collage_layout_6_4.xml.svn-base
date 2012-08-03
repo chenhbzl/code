@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="725px" android:layout_height="530px" android:background="@drawable/layout4_6">
+<LinearLayout android:layout_alignParentLeft="true" android:background="@color/gray" android:layout_alignParentTop="true" android:layout_marginTop="26px" android:layout_marginLeft="25px" android:id="@+id/layout6_4_temp" android:layout_width="320px" android:layout_height="118px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>
+<LinearLayout android:layout_alignParentTop="true" android:background="@color/gray" android:layout_alignParentRight="true" android:layout_width="320px" android:layout_height="118px" android:layout_marginTop="26px" android:layout_marginRight="26px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout><LinearLayout android:layout_width="256px" android:background="@color/gray" android:layout_height="145px" android:layout_alignParentLeft="true" android:layout_below="@+id/layout6_4_temp" android:layout_marginTop="34px" android:layout_marginLeft="25px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout><LinearLayout android:layout_alignParentBottom="true" android:background="@color/gray" android:layout_alignParentLeft="true" android:layout_marginLeft="25px" android:layout_marginBottom="26px" android:id="@+id/layout_6_4_temp2" android:layout_width="110px" android:layout_height="145px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>
+
+
+
+<LinearLayout android:layout_alignParentBottom="true" android:background="@color/gray" android:layout_marginBottom="26px" android:layout_toRightOf="@+id/layout_6_4_temp2" android:layout_width="110px" android:layout_height="145px" android:layout_marginLeft="36px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>
+<LinearLayout android:layout_alignParentBottom="true" android:background="@color/gray" android:layout_alignParentRight="true" android:layout_marginBottom="26px" android:layout_marginRight="26px" android:layout_width="384px" android:layout_height="326px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>
+</RelativeLayout>

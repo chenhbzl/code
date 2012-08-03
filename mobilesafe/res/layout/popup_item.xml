@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="wrap_content"
+	android:layout_height="60px">
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageButton android:layout_width="30px"
+			android:layout_height="30px" android:id="@+id/ib_popup_start"
+			android:background="@drawable/img2" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="启动" />
+	</LinearLayout>
+	<View android:layout_width="1px" android:layout_height="fill_parent"></View>
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageButton android:layout_width="30px"
+			android:layout_height="30px" android:id="@+id/ib_popup_uninstall"
+			android:background="@drawable/img1" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="卸载" />
+	</LinearLayout>
+	<View android:layout_width="1px" android:layout_height="fill_parent"></View>
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageButton android:layout_width="30px"
+			android:layout_height="30px" android:id="@+id/ib_popup_share"
+			android:background="@drawable/img3" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="分享" />
+	</LinearLayout>
+	<View android:layout_width="1px" android:layout_height="fill_parent"></View>
+</LinearLayout>

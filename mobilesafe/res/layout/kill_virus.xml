@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:id="@+id/rl_killvirus"
+  >
+<ImageView 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentTop="true"
+android:id="@+id/iv_killvirus_am"
+
+/> 
+<ScrollView 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@id/iv_killvirus_am"
+android:id="@+id/sv_killvirus"
+>
+<TextView 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/tv_killvirus_info"
+
+></TextView>
+
+
+</ScrollView>
+ 
+ 
+<Button 
+android:layout_width="fill_parent"
+android:layout_height="40px"
+android:text="查杀病毒"
+android:layout_alignParentBottom="true"
+android:onClick="killVirus"
+
+/> 
+    
+</RelativeLayout>

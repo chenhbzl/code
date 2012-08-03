@@ -1,0 +1,74 @@
+package com.beyondsoft.giinii.collage.adapter;
+
+import java.util.ArrayList;
+
+import com.beyondsoft.giinii.collage.R;
+
+import android.app.Activity;
+import android.graphics.Bitmap;
+import android.graphics.Color;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.ImageView.ScaleType;
+
+public class CollagePhotoAdapter extends BaseAdapter {
+	
+	private Activity activity;
+	private ArrayList<Bitmap> mSource;
+	private ArrayList<Integer> selectedPos;
+	
+	
+	public CollagePhotoAdapter(Activity activity, ArrayList<Bitmap> resource, ArrayList<Integer> selectedPos){
+		this.activity = activity;
+		this.mSource = resource;
+		this.selectedPos = selectedPos;
+	}
+	
+	@Override
+	public int getCount() {
+		return this.mSource.size();
+	}
+
+	@Override
+	public Object getItem(int paramInt) {
+		return this.mSource.get(paramInt);
+	}
+
+	@Override
+	public long getItemId(int paramInt) {
+		return paramInt;
+	}
+
+	@Override
+	public View getView(int position, View convertView, ViewGroup parent) {
+		
+		ViewHolder holder;
+		
+		if(convertView == null){
+			convertView = this.activity.getLayoutInflater().inflate(R.layout.item_for_photolist, null);
+			holder = new ViewHolder();
+			holder.photoIV = (ImageView) convertView.findViewById(R.id.edit_collage_item_photo);
+			holder.selectedIcon = (ImageView) convertView.findViewById(R.id.edit_collage_item_frame);
+			convertView.setTag(holder);
+		}else{
+			holder = (ViewHolder) convertView.getTag();
+		}
+		
+		holder.photoIV.setImageBitmap(this.mSource.get(position));
+		holder.photoIV.setBackgroundColor(Color.WHITE);
+		holder.photoIV.setScaleType(ScaleType.FIT_XY);
+		holder.selectedIcon.setVisibility(View.INVISIBLE);
+		if(this.selectedPos.contains((int)(this.getItemId(position)))){
+			holder.selectedIcon.setVisibility(View.VISIBLE);
+		}
+		
+		return convertView;
+	}
+	
+	public static class ViewHolder{
+		ImageView photoIV;
+		ImageView selectedIcon;
+	}
+}

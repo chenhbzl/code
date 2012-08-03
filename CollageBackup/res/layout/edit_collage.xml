@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/edit_collage_mainlayout" android:layout_width="1024px"
+	android:background="#FFDBDBDB" android:layout_height="743px"> 
+	
+	<RelativeLayout android:layout_x="0px" android:layout_y="0px"
+		android:layout_width="1024px" android:background="@drawable/collage_background"
+		android:layout_height="743px" />
+
+
+	<RelativeLayout android:id="@+id/edit_collage_toolbarlayout"
+		android:background="@drawable/collage_create_toolbar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:id="@+id/edit_collage_exitbtn"
+			android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+			android:layout_marginTop="11px" android:layout_marginLeft="25px"
+			android:src="@drawable/collage_backbtn_selector"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+		<ImageView android:id="@+id/edit_collage_donebtn"
+			android:layout_marginTop="14px" android:src="@drawable/collage_savebtn_selector"
+			android:layout_alignParentRight="true" android:layout_marginRight="25px"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+	</RelativeLayout>
+
+
+	<RelativeLayout android:id="@+id/edit_collage_photolayout"
+		android:layout_width="725px" android:layout_height="530px"
+		android:layout_marginLeft="57px" android:layout_marginTop="98px"></RelativeLayout>
+
+
+	<LinearLayout android:id="@+id/edit_collage_optionlayout"
+		android:layout_marginLeft="828px" android:layout_marginTop="83px"
+		android:layout_height="688px" android:orientation="vertical"
+		android:layout_width="200px"></LinearLayout>
+
+
+	<RelativeLayout android:layout_width="727px"
+		android:layout_height="60px" android:layout_marginLeft="55px"
+		android:layout_marginTop="655px" android:id="@+id/edit_collage_autofill_clear_lo">
+
+		<ImageView android:id="@+id/edit_collage_framebtn"
+			android:layout_toLeftOf="@+id/edit_collage_clearbtn"
+			android:layout_marginRight="100px" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentTop="true"
+			android:src="@drawable/collage_framebtn_selector"></ImageView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_below="@+id/edit_collage_framebtn"
+			android:layout_alignLeft="@+id/edit_collage_framebtn"
+			android:layout_toRightOf="@+id/edit_collage_framebtn"
+			android:gravity="center" android:text="@string/frame_btn_text" />
+
+		<ImageView android:id="@+id/edit_collage_clearbtn"
+			android:layout_toLeftOf="@+id/edit_collage_autofillbtn"
+			android:layout_marginRight="100px" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentTop="true"
+			android:src="@drawable/collage_clearallbtn_selector"></ImageView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_below="@+id/edit_collage_clearbtn"
+			android:layout_alignLeft="@+id/edit_collage_clearbtn"
+			android:layout_toRightOf="@+id/edit_collage_clearbtn"
+			android:gravity="center" android:text="@string/clear_all_btn_text" />
+
+		<ImageView android:layout_alignParentRight="true"
+			android:layout_marginRight="190px" android:id="@+id/edit_collage_autofillbtn"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:src="@drawable/collage_autofillbtn_selector"></ImageView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_below="@+id/edit_collage_autofillbtn"
+			android:layout_alignLeft="@+id/edit_collage_autofillbtn"
+			android:layout_toRightOf="@+id/edit_collage_autofillbtn"
+			android:gravity="center" android:text="@string/random_btn_text" />
+	</RelativeLayout>
+</RelativeLayout>

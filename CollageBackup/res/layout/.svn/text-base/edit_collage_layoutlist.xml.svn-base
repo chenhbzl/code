@@ -1,0 +1,17 @@
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_width="200px" android:layout_height="688px" android:background="@drawable/edit_collage_layout_bg">
+
+<com.beyondsoft.giinii.collage.CommonGridView
+	android:layout_height="wrap_content" 
+	android:id="@+id/edit_collage_layoutgv" 
+	android:layout_marginTop="110px" 
+	android:layout_marginBottom="10px" 
+	android:paddingLeft="32px" 
+	android:paddingRight="31px" 
+	android:verticalSpacing="10px" 
+	android:layout_width="196px">
+</com.beyondsoft.giinii.collage.CommonGridView>
+
+<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/edit_collage_layouthidebtn" android:src="@drawable/collage_hidebtn_selector" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginTop="25px" android:layout_marginRight="21px"></ImageView>
+</RelativeLayout>

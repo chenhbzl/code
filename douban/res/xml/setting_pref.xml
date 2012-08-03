@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="日志设置选项" >
+
+        <EditTextPreference
+            android:dialogMessage="设置一次加载的日记条目"
+            android:dialogTitle="设置"
+            android:key="load_note_number"
+            android:negativeButtonText="取消"
+            android:positiveButtonText="确定"
+            android:summary="点击进行设置"
+            android:title="设置日记加载条目" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

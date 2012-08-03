@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="175px" android:layout_height="693px"
+	android:background="@drawable/collage_layout_bg">
+
+	<TextView android:layout_height="wrap_content" android:id="@+id/collage_label"
+		android:layout_width="wrap_content" android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true" android:layout_marginLeft="15px"
+		android:text="@string/collage_label_text" android:layout_marginTop="20px"
+		android:textSize="23px" />
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_centerHorizontal="true"
+		android:layout_below="@+id/collage_label" android:layout_marginTop="15px"
+		android:text="@string/collage_label_note_text" android:id="@+id/collage_label_note"
+		android:textSize="12px" android:layout_marginLeft="15px"
+		android:layout_marginRight="15px" android:lineSpacingExtra="3px" />
+
+	<ImageView android:layout_height="wrap_content"
+		android:id="@+id/collage_layout_divider_line" android:layout_width="fill_parent"
+		android:src="@drawable/divider_line" android:layout_below="@+id/collage_label_note"
+		android:layout_marginTop="20px" />
+
+	<ImageView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_centerHorizontal="true"
+		android:id="@+id/edit_collage_layoutbtn" android:src="@drawable/collage_layoutbtn_selector"
+		android:layout_below="@+id/collage_layout_divider_line"
+		android:layout_marginTop="60px"></ImageView>
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_centerHorizontal="true"
+		android:layout_marginTop="2px" android:text="Layout"
+		android:layout_below="@+id/edit_collage_layoutbtn" />
+
+	 <ImageView android:layout_width="wrap_content"
+		android:layout_below="@+id/edit_collage_layoutbtn"
+		android:layout_height="wrap_content" android:id="@+id/edit_collage_photobtn"
+		android:src="@drawable/collage_photobtn_selector"
+		android:layout_centerHorizontal="true" android:layout_marginTop="100px"></ImageView>
+ 
+	
+	 <TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_centerHorizontal="true"
+		android:layout_marginTop="2px" android:text="Photo"
+		android:layout_below="@+id/edit_collage_photobtn" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mu_kill_selected" android:title="杀死选定的任务"></item>
+    <item android:id="@+id/mu_kill_all" android:title="杀死全部的任务"></item>
+</menu>

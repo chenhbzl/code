@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SplashActivity!</string>
+    <string name="app_name">豆瓣客户端</string>
+    <string name="my_douban">我的豆瓣</string>
+    <string name="my_douban_version">版本号</string>
+    <string name="my_douban_client">(豆瓣客户端)</string>
+    <string name="warning">警告</string>
+    <string name="network_down">网络不可用是否去设置</string>
+    <string name="me_tab">我的豆瓣</string>
+    <string name="newbook_tab">豆瓣新书</string>
+    <string name="best_review">书评</string>
+    <string name="about">关于</string>
+
+</resources>

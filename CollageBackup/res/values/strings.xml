@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CreateCollageActivity!</string>
+    <string name="app_name">GiiNiiCollage</string>
+    <string name="go_collage_btn_text">Go to collage</string>
+    <string name="clear_all_btn_text">Clear all</string>
+    <string name="random_btn_text">Random</string>
+    <string name="frame_btn_text">Frame</string>
+    <string name="layout_label_text">Layout</string>
+    <string name="photo_label_text">Photo</string>
+     <string name="addpic">addPic</string>
+     <string name="collage_label_text">Collage</string>
+     <string name="collage_label_note_text">Please select from the following photos, layout or pattern icon, and enter photos, layout or pattern</string>
+    <string name="save_dialog_label_text">Save collage</string>
+    <string name="save_dialog_text">Save the file, select the quality of the size of collage ?</string>
+</resources>

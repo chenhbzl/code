@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView android:layout_width="wrap_content" 
+android:textSize="20dp" 
+android:layout_height="wrap_content" 
+android:textColor="#FFFFFF" 
+android:text="请填写安全手机号码  \n
+安全手机号码具有以下作用   \n
+*sim卡被更换后接受到短信   \n
+换sim卡后发送短信的内容"
+android:id="@+id/textView1"/>
+
+
+
+
+
+
+<Button android:layout_width="wrap_content" 
+android:id="@+id/button1" 
+android:text="下一步" 
+android:layout_height="wrap_content" 
+android:layout_alignParentBottom="true"
+ android:layout_alignParentRight="true" 
+ android:layout_marginRight="30dp" 
+ android:layout_marginBottom="23dp"
+ android:onClick="setup2confignext"
+ 
+ ></Button>
+<EditText android:layout_width="150dp" 
+android:layout_height="wrap_content" 
+android:id="@+id/et_safe_number"
+android:singleLine="true"
+android:hint="安全手机号"
+ android:layout_below="@+id/textView1" 
+ android:layout_alignParentLeft="true" 
+ android:layout_marginLeft="30dp" 
+ android:layout_marginTop="28dp">
+</EditText>
+<Button android:layout_width="wrap_content" 
+android:id="@+id/button2" 
+android:text="选择联系人" 
+android:layout_height="wrap_content" 
+android:layout_alignBottom="@+id/et_safe_number" 
+android:layout_alignRight="@+id/button1"
+android:onClick="selectContacts"
+
+></Button>
+<EditText android:layout_width="150dp" 
+android:lines="3"
+android:layout_height="80dp" 
+android:id="@+id/safe_message_et" 
+android:hint="安全短信的内容"
+android:layout_centerVertical="true" 
+android:layout_alignLeft="@+id/et_safe_number">
+</EditText><Button android:layout_width="wrap_content"
+ android:id="@+id/button3" android:text="保存" 
+ android:layout_height="wrap_content" 
+ android:layout_alignTop="@+id/safe_message_et" 
+ android:layout_alignRight="@+id/button2"
+ android:onClick="save"
+ 
+ >
+ </Button>
+
+<Button 
+android:layout_width="wrap_content" 
+android:id="@+id/button4" 
+android:text="上一步" 
+android:layout_height="wrap_content" 
+android:layout_alignTop="@+id/button1" 
+android:layout_alignLeft="@+id/safe_message_et"
+android:onClick="setup2configpre"
+
+>
+</Button>
+
+</RelativeLayout>

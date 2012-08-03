@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="cn.itcast.mobilesafe"
+      android:versionCode="2"
+      android:versionName="2.0">
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+  <instrumentation android:targetPackage="cn.itcast.mobilesafe" android:name="android.test.InstrumentationTestRunner" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+  <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+  <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"></uses-permission>
+  <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+  <uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+  <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+  <!-- 粗略定位授权 -->
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+  <!-- 精细定位授权 -->
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+  <!-- 模拟定位授权 -->
+  <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"></uses-permission>
+  <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+  <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+  <uses-permission android:name="android.permission.WRITE_CONTACTS"></uses-permission>
+  <uses-permission android:name="android.permission.GET_TASKS"></uses-permission>
+  <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"></uses-permission>
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:name="MobileSafeApp">
+        <activity android:name=".SplashActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" 
+                />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:label="@string/main_name"></activity>
+        <activity android:name=".LostProtectedActivity" android:label="@string/lost_pro_name"></activity>
+  		<activity android:name=".Setup1Config" android:label="@string/setup1config_name"></activity>
+  		<activity android:name=".Setup2Config" android:label="@string/setup2config_name"></activity>
+  		<activity android:name=".Setup3Config" android:label="@string/setup3config_name"></activity>
+  		<activity android:name=".SelectContactActivity" android:label="@string/select_contact"></activity>
+  		<activity android:name=".LostProtectedSettingActivity"  android:label="@string/lostprotectedsetting"></activity>
+  		<activity android:name=".AToolsActivity" android:label="@string/atools"></activity>
+  		<activity android:name=".FindAddressActivity" android:label="@string/find_address" ></activity>
+  		<activity android:name=".CallSmsSafeActivity" android:label="@string/black_list_manager"></activity>
+  		<activity android:name=".DragViewActivity" android:label="@string/change_view_location"></activity>
+  		<activity android:name=".AppManagerActivity" android:label="@string/app_manager"></activity>
+  		<activity android:name=".EnterPasswordActivity" android:label="@string/enter_password"></activity>
+  		<activity android:name=".TaskManagerActivity" android:label="@string/task_manager"></activity>
+  		<activity android:name=".ShowAppDetailActivity" android:theme="@style/FloatActivty" android:label="@string/show_app_detail"></activity>
+  		<activity android:name=".TrafficManagerActivity" android:label="@string/traffic_stats"></activity>
+  		<activity android:name=".KillVirusActivity" android:label="@string/kill_virus"></activity>
+  		
+  		<service android:name=".service.BackSmsService"></service>
+  		<service android:name=".service.ShowAddressService" ></service>
+  		<service android:name=".service.LockAppService"></service>
+  		<service android:name=".service.UpdateWidgetService"></service>
+  		<receiver android:name=".receiver.CallPhoneRecevier">
+  			<intent-filter android:priority="1000">
+  				<action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+  			</intent-filter>
+  		</receiver>
+  		<receiver android:name=".receiver.SMSReceiver">
+  		  	<intent-filter android:priority="1000">
+  				<action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+  			</intent-filter>
+  		</receiver>
+  		
+  		
+  	<receiver android:name=".widget.TaskWidget" >
+    <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+    </intent-filter>
+    <meta-data android:name="android.appwidget.provider"
+               android:resource="@xml/example_appwidget_info" />
+	</receiver>
+    <uses-library android:name="android.test.runner" />
+    </application>
+</manifest>

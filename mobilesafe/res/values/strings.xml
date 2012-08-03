@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MobilesafeActivity!</string>
+    <string name="app_name">Mobilesafe</string>
+    <string name="main_name">主界面</string>
+    <string name="lost_pro_name">手机防盗</string>
+    <string name="setup1config_name">第一步</string>
+    <string name="setup2config_name">第二步</string>
+    <string name="select_contact">选择联系人</string>
+    <string name="setup3config_name">第三步</string>
+    <string name="lostprotectedsetting">手机防盗设置</string>
+    <string name="atools">高级工具</string>
+    <string name="find_address">手机归属地查询</string>
+    <string name="black_list_manager">黑名单管理 </string>
+    <string name="change_view_location">改变归属地显示位置</string>
+    <string name="app_manager">程序管理 </string>
+    <string name="enter_password">输入密码 </string>
+    <string name="task_manager">任务管理器</string>
+    <string name="kill_all_finish">任务杀死完毕</string>
+    <string name="show_app_detail">程序详细信息</string>
+    <string name="traffic_stats">流量统计</string>
+    <string name="kill_virus">病毒查杀</string>
+</resources>

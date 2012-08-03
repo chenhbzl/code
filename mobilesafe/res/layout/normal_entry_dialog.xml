@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="280dp"
+  android:layout_height="180dp">
+   
+   <EditText android:layout_width="fill_parent"
+   			 android:layout_height="wrap_content"
+   			 android:password="true"
+   			 android:maxLines="1"
+   			 android:hint="请输入密码"
+   			 android:layout_marginLeft="5dp"
+   			 android:layout_marginRight="5dp"
+   			 android:id="@+id/normal_password_et"
+   />
+   <LinearLayout 
+   android:orientation="horizontal"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   >
+   	<Button 
+   	   android:layout_width="wrap_content"
+  	   android:layout_height="wrap_content"
+   	   android:text="确定"
+   	   android:onClick="lostProtectedConfirm"
+   	   android:id="@+id/secondConfirmbt"
+   	   android:layout_gravity="center_horizontal"
+   	   android:gravity="center_horizontal"
+   	   android:layout_weight="1"
+   	/>
+     <Button 
+   	   android:layout_width="wrap_content"
+  	   android:layout_height="wrap_content"
+   	   android:text="取消"
+   	   android:onClick="lostProtectedCancle"
+   	   android:id="@+id/secondCanclebt"
+   	   android:layout_gravity="center_horizontal"
+   	   android:gravity="center_horizontal"
+   	   android:layout_weight="1"
+   	/>
+   
+   </LinearLayout>
+</LinearLayout>

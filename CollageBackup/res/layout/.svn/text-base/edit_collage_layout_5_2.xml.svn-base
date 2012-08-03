@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="725px" android:layout_height="530px" android:background="@drawable/layout2_5">
+<LinearLayout android:layout_height="309px" android:background="@color/gray" android:layout_alignParentLeft="true" android:layout_marginLeft="26px" android:layout_alignParentTop="true" android:layout_marginTop="26px" android:layout_width="461px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout><LinearLayout android:layout_width="179px" android:background="@color/gray" android:layout_height="309px" android:layout_marginTop="26px" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:layout_marginRight="26px"><ImageView android:layout_width="fill_parent" android:layout_height="fill_parent"></ImageView>
+</LinearLayout><LinearLayout android:layout_alignParentLeft="true" android:background="@color/gray" android:layout_width="202px" android:layout_height="135px" android:layout_alignParentBottom="true" android:layout_marginBottom="26px" android:id="@+id/layout5_2_temp" android:layout_marginLeft="26px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>
+<LinearLayout android:layout_width="202px" android:background="@color/gray" android:layout_height="135px" android:layout_marginLeft="34px" android:layout_alignParentBottom="true" android:layout_marginBottom="26px" android:layout_toRightOf="@+id/layout5_2_temp"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout><LinearLayout android:layout_alignParentRight="true" android:background="@color/gray" android:layout_marginRight="26px" android:layout_width="202px" android:layout_height="135px" android:layout_alignParentBottom="true" android:layout_marginBottom="26px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/edit_collage_mainlayout"
+  android:layout_width="1024px" 
+  android:background="@drawable/collage_background" android:layout_height="743px">
+<RelativeLayout android:layout_height="55px" android:layout_width="1024px" android:id="@+id/edit_collage_toolbarlayout" android:background="@drawable/collage_create_toolbar"><ImageView android:id="@+id/edit_collage_exitbtn" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginTop="11px" android:layout_marginLeft="25px" android:src="@drawable/collage_backbtn_selector" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+<ImageView android:id="@+id/edit_collage_donebtn" android:layout_marginTop="11px" android:src="@drawable/collage_savebtn_selector" android:layout_alignParentRight="true" android:layout_marginRight="25px" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+
+
+</RelativeLayout>
+
+
+<RelativeLayout android:id="@+id/edit_collage_photolayout" android:layout_y="98px" android:layout_width="725px" android:layout_height="530px" android:layout_x="57px"></RelativeLayout>
+<LinearLayout android:layout_x="828px" android:id="@+id/edit_collage_optionlayout" android:layout_y="55px" android:layout_height="688px" android:orientation="vertical" android:layout_width="200px"></LinearLayout>
+<RelativeLayout android:layout_width="727px" android:layout_height="40px" android:layout_x="55px" android:id="@+id/edit_collage_autofill_clear_lo" android:layout_y="663px">
+<ImageView android:layout_toLeftOf="@+id/edit_collage_clearbtn" android:id="@+id/edit_collage_autofillbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginRight="88px" android:src="@drawable/collage_autofillbtn_selector"></ImageView>
+<ImageView android:id="@+id/edit_collage_clearbtn" android:layout_alignParentRight="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:src="@drawable/collage_clearallbtn_selector" android:layout_marginRight="244px"></ImageView>
+</RelativeLayout>
+</AbsoluteLayout>

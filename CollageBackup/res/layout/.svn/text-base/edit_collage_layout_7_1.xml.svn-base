@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="725px" android:layout_height="530px" android:background="@drawable/layout1_7">
+<LinearLayout android:layout_alignParentLeft="true" android:background="@color/gray" android:layout_alignParentTop="true" android:layout_marginTop="26px" android:layout_marginLeft="26px" android:layout_width="320px" android:layout_height="118px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>
+<LinearLayout android:layout_marginTop="26px" android:background="@color/gray" android:layout_width="320px" android:layout_height="118px" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:layout_marginRight="25px" android:id="@+id/layout7_1_temp"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout><LinearLayout android:id="@+id/layout_7_1_temp2" android:background="@color/gray" android:layout_width="384px" android:layout_height="326px" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_marginLeft="26px" android:layout_marginBottom="26px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>
+
+<LinearLayout android:layout_width="109px" android:background="@color/gray" android:layout_height="145px" android:layout_below="@+id/layout7_1_temp" android:layout_toRightOf="@+id/layout_7_1_temp2" android:layout_marginTop="34px" android:layout_marginLeft="34px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>
+
+<LinearLayout android:layout_alignParentRight="true" android:background="@color/gray" android:layout_marginRight="25px" android:layout_width="111px" android:layout_height="145px" android:layout_marginTop="34px" android:layout_below="@+id/layout7_1_temp"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>
+<LinearLayout android:layout_width="110px" android:background="@color/gray" android:layout_height="145px" android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/layout_7_1_temp2" android:layout_marginBottom="26px" android:layout_marginLeft="34px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout><LinearLayout android:layout_alignParentBottom="true" android:background="@color/gray" android:layout_alignParentRight="true" android:layout_marginRight="25px" android:layout_marginBottom="26px" android:layout_width="109px" android:layout_height="145px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>
+
+</RelativeLayout>

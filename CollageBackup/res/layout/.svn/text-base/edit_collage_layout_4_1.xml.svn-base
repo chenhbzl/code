@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="725px" android:layout_height="530px" android:background="@drawable/layout1_4">
+<LinearLayout android:layout_alignParentLeft="true" android:background="@color/gray" android:layout_alignParentTop="true" android:layout_marginTop="26px" android:layout_width="202px" android:layout_height="135px" android:layout_marginLeft="27px" android:id="@+id/layout4_1_temp"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>
+<LinearLayout android:layout_toRightOf="@+id/layout4_1_temp" android:background="@color/gray" android:layout_width="202px" android:layout_height="135px" android:layout_marginTop="26px" android:layout_marginLeft="34px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout><LinearLayout android:layout_alignParentRight="true" android:background="@color/gray" android:layout_alignParentTop="true" android:layout_marginRight="26px" android:layout_marginTop="26px" android:layout_width="202px" android:layout_height="135px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>
+
+<LinearLayout android:layout_alignParentBottom="true" android:background="@color/gray" android:layout_marginBottom="26px" android:layout_width="674px" android:layout_height="309px" android:layout_alignParentLeft="true" android:layout_marginLeft="26px"><ImageView android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>
+
+</RelativeLayout>

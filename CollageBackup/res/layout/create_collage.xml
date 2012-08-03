@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="1024px" android:layout_height="768px"
+	android:background="@drawable/create_collage_bg">
+
+	<ImageView
+		android:id="@+id/create_exitbtn" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="60px"
+		android:layout_marginLeft="880px"
+		android:background="@drawable/create_backbtn_selector" />
+
+	<RelativeLayout android:layout_marginTop="320px"
+		android:layout_marginLeft="52px" android:layout_width="320px"
+		android:layout_height="34px" android:gravity="center">
+		<EditText android:id="@+id/create_collagenameet"
+			android:layout_height="34px" android:background="@color/transparence"
+			android:textColor="@color/white" android:layout_width="290px" />
+	</RelativeLayout>
+	<Button android:layout_marginTop="517px"
+		android:layout_marginLeft="53px" android:id="@+id/create_addpicbtn"
+		android:layout_width="170px" android:layout_height="33px"
+		android:background="@drawable/collage_createbtn_selector"
+		android:text="@string/addpic" />
+	<TextView android:layout_marginLeft="253px"
+		android:layout_marginTop="517px" android:id="@+id/create_tv_selectedcount"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/addpic" />
+
+
+	<Button android:id="@+id/create_gobtn"
+		android:layout_height="33px" android:background="@drawable/collage_createbtn_selector"
+		android:text="@string/go_collage_btn_text" android:layout_width="170px"
+		android:layout_marginLeft="53px" android:layout_marginTop="617px" />
+</RelativeLayout>

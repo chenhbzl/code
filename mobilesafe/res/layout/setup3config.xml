@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView android:layout_width="wrap_content" 
+android:textSize="30dp" 
+android:layout_height="wrap_content" 
+android:textColor="#FFFFFF" 
+android:text="界面3 \n
+防盗指令介绍 \n
+查询手机位置指令设置\n"
+android:id="@+id/textView1"/>
+<EditText android:layout_width="180dp" 
+android:layout_height="wrap_content"
+ android:id="@+id/et_safe_instruction" 
+ android:layout_below="@+id/textView1" 
+ android:layout_alignParentLeft="true">
+</EditText>
+<Button 
+android:layout_width="wrap_content" 
+android:id="@+id/button1" 
+android:text="设置完成"
+ android:onClick="finishSetting" android:layout_height="wrap_content" android:layout_below="@+id/textView1" android:layout_toRightOf="@+id/et_safe_instruction" android:layout_marginLeft="30dp"></Button>
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewGroup>
+    <View id="1" topX="17" topY="17" width="128" height="161" />
+	<View id="2" topX="161" topY="17" width="128" height="161" />
+	<View id="3" topX="17" topY="198" width="128" height="161" />
+	<View id="4" topX="161" topY="198" width="128" height="161" />
+	<View id="5" topX="308" topY="17" width="401" height="343" />
+	<View id="6" topX="17" topY="377" width="337" height="136" />
+	<View id="7" topX="370" topY="377" width="337" height="136" />
+</ViewGroup>

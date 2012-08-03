@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/rl_task_manager_item"
+  >
+    
+<ImageView 
+  android:layout_width="40px"
+  android:layout_height="40px"
+  android:id="@+id/iv_task_manger_item_appicon"
+  android:layout_alignParentLeft="true"
+/>    
+
+<LinearLayout 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:layout_alignTop="@id/rl_task_manager_item"
+  android:layout_toRightOf="@id/iv_task_manger_item_appicon"
+>
+<TextView   
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/tv_task_manger_item_appname"
+  ></TextView>
+<TextView   
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/tv_task_manger_item_apppid"
+  ></TextView>
+<TextView   
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/tv_task_manger_item_appversion"
+  ></TextView>
+  
+  
+<TextView   
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/tv_task_manger_item_memoryinfo"
+  ></TextView>
+</LinearLayout>  
+<CheckBox 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/cb_task_manger_item"
+  android:layout_alignParentRight="true"
+  android:focusable="false"
+  android:clickable="false"
+/>
+</RelativeLayout>
